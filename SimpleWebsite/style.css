@@ -1,0 +1,33 @@
+body{
+    background-image: url("bg1.jpg");
+    position: absolute;
+    /* width: 150%; */
+  }
+.container{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    border: 1px solid #86d1e2;
+    margin: auto;
+    padding: auto;
+}
+img{
+    height: 50%;
+    width: 100%;
+    margin: 0px;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+p{
+    margin-top: -25px;
+    background-color: white;
+    padding: 15px;
+
+}
