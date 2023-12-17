@@ -1,0 +1,42 @@
+    a {
+            display: block;
+            padding: 10px;
+            font-weight: 600;
+    }
+
+    .face{
+            font-size: 40px;
+            text-align: center;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: grey;
+            font-weight:100;
+    }
+    .flex-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family:candara Light;
+    }
+    div{
+            color: #1A73E8;
+            padding: 10px;
+            font-weight: 600;
+    }
+    .container{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        border: 1px solid #86d1e2;
+        margin: auto;
+        padding: auto;
+    }
+    img{
+        height: 50%;
+        width: 100%;
+        margin: 0px;
+    }
+    h2,p{
+            color: grey;
+    }
