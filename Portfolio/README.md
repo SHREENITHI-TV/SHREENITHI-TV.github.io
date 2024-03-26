@@ -1,1 +1,1 @@
-This is how you can create a complete responsive portfolio website using HTML, CSS, JavaScript, and Bootstrap 5 .
+Welcome to my introductory portfolio using HTML, CSS, JavaScript, and Bootstrap 5 .
