@@ -5,99 +5,125 @@
     <title>Shreenithi - Portfolio Website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap CDN -->
+
+    <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-    <!-- font awesome for logo -->
+
+    <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 
 <body>
-   <li class="nav-item active">
-    <a class="nav-link" href="#home">Home</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="#about">About</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="#skills">Skills</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="#projects">Projects</a>
-</li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Shreenithi T. V.</a>
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <!-- main banner -->
-    <h2 class="hero_title">
-    Hi, I'm Shreenithi
-</h2>
 
-<p class="hero_desc">
-    Software Engineer | QA & Test Automation | Backend/API Validation
-    <br>
-    MS Computer Science graduate focused on building reliable, testable, and maintainable software systems.
-</p>
+    <!-- Main Banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">
+                        Hi, I'm Shreenithi T. V.
+                    </h2>
 
-<div class="hero-buttons mt-4">
-    <a href="#projects" class="btn btn-light me-2">View Projects</a>
-    <a href="../Resume/Shreenithi T V_Resume.pdf" class="btn btn-outline-light me-2" target="_blank">View Resume</a>
-    <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-light" target="_blank">GitHub</a>
-</div>
+                    <p class="hero_desc">
+                        Software Engineer | QA & Test Automation | Backend/API Validation
+                        <br>
+                        MS Computer Science graduate focused on building reliable, testable, and maintainable software systems.
+                    </p>
+
+                    <div class="hero-buttons mt-4">
+                        <a href="#projects" class="btn btn-light me-2">View Projects</a>
+                        <a href="../Resume/Shreenithi T V_Resume.pdf" class="btn btn-outline-light me-2" target="_blank">View Resume</a>
+                        <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-light" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- about section-->
-    <div class="add-space">
-    </div>
+    <!-- About Section -->
+    <div class="add-space"></div>
+
     <section class="container mt-4 pt-4 section" id="about">
-        <!-- margin top mt and padding top pt -->
         <h1 class="text-center" style="padding-top: 35px;">About Me</h1>
 
-        <div class="row mt-4">
+        <div class="row mt-4 align-items-center">
             <div class="col-lg-6">
                 <div class="mySlides fade">
-                    <img src="images/1.jpg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/1.jpg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/3.jpeg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/3.jpeg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/4.jpg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/4.jpg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/5.jpg" class="image_about"
-                        style="width:500px; height:400px;object-fit: fill;">
+                    <img src="images/5.jpg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/6.jpg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/6.jpg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/7.jpeg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/7.jpeg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/8.jpg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/8.jpg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/9.jpg" class="image_about"
-                        style="width:500px; height:400px; object-fit: fill;">
+                    <img src="images/9.jpg" class="image_about" style="width:500px; height:400px; object-fit: fill;">
                 </div>
+
                 <br>
+
                 <div style="text-align:center">
                     <span class="dot"></span>
                     <span class="dot"></span>
@@ -109,242 +135,274 @@
                     <span class="dot"></span>
                 </div>
             </div>
+
             <div class="col-lg-6">
-                <br>
                 <p>
-    I am an MS Computer Science graduate with hands-on experience in software quality assurance,
-    test automation, backend validation, and software maintenance. My work includes validating
-    production web workflows, designing functional and regression test suites, debugging Java-based
-    applications, writing SQL validation logic, and documenting release-readiness results.
-</p>
+                    I am an MS Computer Science graduate with hands-on experience in software quality assurance,
+                    test automation, backend validation, and software maintenance. My work includes validating
+                    production web workflows, designing functional and regression test suites, debugging Java-based
+                    applications, writing SQL validation logic, and documenting release-readiness results.
+                </p>
 
-<p>
-    I am interested in Software Engineer, QA Engineer, Software Test Engineer, Test Automation Engineer,
-    and SDET-style roles where I can contribute to reliable releases, automation coverage, backend/API
-    validation, and continuous quality improvement.
-</p>
-
-<div class="row mt-3">
-    <div class="col-md-6">
-        <ul>
-            <li>Software Engineering</li>
-            <li>QA & Test Automation</li>
-            <li>API/UI Validation</li>
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <ul>
-            <li>Java, Python, SQL</li>
-            <li>JUnit, Selenium, Playwright</li>
-            <li>Debugging & Root-Cause Analysis</li>
-        </ul>
-    </div>
-</div>
+                <p>
+                    I am interested in Software Engineer, QA Engineer, Software Test Engineer, Test Automation Engineer,
+                    and SDET-style roles where I can contribute to reliable releases, automation coverage, backend/API
+                    validation, and continuous quality improvement.
+                </p>
 
                 <div class="row mt-3">
-                    <div class="col-md-6">My hobbies include:
+                    <div class="col-md-6">
                         <ul>
-                            <li>Photography: Sky Snap</li>
-                            <li>Gaming: Action-Adventure Game</li>
-                            <li>Avid Reader</li>
+                            <li>Software Engineering</li>
+                            <li>QA & Test Automation</li>
+                            <li>API/UI Validation</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Java, Python, SQL</li>
+                            <li>JUnit, Selenium, Playwright</li>
+                            <li>Debugging & Root-Cause Analysis</li>
                         </ul>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <p>I find great joy in unraveling user experiences.
-                        In parallel, I have been diving into Webflow design and cybersecurity courses to enrich my HCI
-                        endeavors.
-                        Embracing new tools fuels my passion for crafting seamless and secure digital experiences.
-                        This exploration, connected with my Sky Snap photography hobby, has amplified my pursuit of HCI.
-                        It has allowed me to infuse creativity and aesthetics into my work, intending to inspire through
-                        captivating design
-                        and functionality.
-                    </p>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- projects section-->
-    <section class="container mt-3 section" id="projects">
-        <!-- margin top mt and padding top pt -->
-       <h1 class="text-center" style="padding-top: 35px;">Featured Projects</h1>
-<p class="text-center">
-    Selected projects across software engineering, testing, backend validation, search, and machine learning.
-</p>
-        <div class="row">
-
-            <!--Java Jar files-->
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/5.1- scientific cal Java Jar .png" alt="Card image"
-                            style="width: 95%px">
-                        <div class="card-body">
-                            <h4 class="card-title">Basic Scientific Calculator</h4>
-                            <p class="card-text">Java-based scientific calculator in a compact JAR file. Empowering
-                                users with essential functions,
-                                from basic arithmetic to advanced scientific calculations.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/Scientific-Calculator"
-                                    class="btn btn-dark" target="_blank">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/5.2- SI Java Jar .png" alt="Card image" style="width:95%">
-                        <div class="card-body">
-                            <h4 class="card-title">Simple Interest Calculator</h4>
-                            <p class="card-text">Java-based calculator in JAR format designed for simple interest (SI)
-                                calculations.
-                                Input principal amount, interest rate, and duration to swiftly compute
-                                both simple interest and the total amount.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/SI-Calculator"
-                                    class="btn btn-dark" target="_blank">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/5.3 XO game.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Cross N Knot Game</h4>
-                            <p class="card-text">Java-based XO game packaged as a JAR file, offering a thrilling gaming
-                                experience.
-                                Includes a scoreboard feature seamlessly linked to a database,
-                                enabling players to track their progress and compete for victory.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/Cross-N-Knot-Game"
-                                    class="btn btn-dark" target="_blank">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--website-->
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/2. Language Translator.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Simple Language Translator</h4>
-                            <br>
-
-                            <p class="card-text"> Facilitating effortless communication across languages. Enhancing
-                                global connectivity with intuitive translation. </p>
-                            <div class="text-center">
-                                <a href="https://shreenithi-tv.github.io/Translator/" class="btn btn-secondary"
-                                    target="_blank">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/4. Web contest.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Simple Webpage</h4>
-                            <p class="card-text">Crafted on the spot for a web contest, discover a sleek, approachable
-                                webpage on health.
-                                It’s elegantly simple, featuring separate pages for each topic. </p>
-                            <div class="text-center">
-                                <a href="https://shreenithi-tv.github.io/SimpleWebsite/" class="btn btn-secondary"
-                                    target="_blank">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/3.Typing speed test game.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Typing speed Test Game</h4>
-                            <p class="card-text">Test your typing speed! In just one minute, type as many words as you
-                                can from a predefined paragraph. Afterward, get your results and try again to improve
-                                your speed!</p>
-                            <div class="text-center">
-                                <a href="https://shreenithi-tv.github.io/TypingSpeedTest/" class="btn btn-secondary"
-                                    target="_blank">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- skills section-->
+    <!-- Skills Section -->
     <section class="container section" id="skills">
-        <section class="container section" id="skills">
-    <h1 class="text-center">Core Skills</h1>
-    <p class="text-center">
-        Technical areas aligned with software engineering, QA automation, backend validation, and software reliability.
-    </p>
+        <h1 class="text-center" style="padding-top: 35px;">Core Skills</h1>
 
-```
-<div class="row">
-    <div class="col-lg-4 mt-4">
-        <div class="card skillsText">
-            <div class="card-body">
-                <h4 class="card-title mt-3">Testing & QA</h4>
-                <p class="card-text mt-3">
-                    Functional Testing, Regression Testing, Smoke Testing, Integration Testing,
-                    UI Testing, API Testing, Test Case Design, Defect Tracking, Verification & Validation.
-                </p>
+        <p class="text-center">
+            Technical areas aligned with software engineering, QA automation, backend validation, and software reliability.
+        </p>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card skillsText h-100">
+                    <div class="card-body">
+                        <h4 class="card-title mt-3">Testing & QA</h4>
+                        <p class="card-text mt-3">
+                            Functional Testing, Regression Testing, Smoke Testing, Integration Testing,
+                            UI Testing, API Testing, Test Case Design, Defect Tracking, Verification & Validation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card skillsText h-100">
+                    <div class="card-body">
+                        <h4 class="card-title mt-3">Automation & Tools</h4>
+                        <p class="card-text mt-3">
+                            JUnit, Selenium, Playwright, REST API Testing, Git, GitHub, Jira,
+                            Jenkins, Azure DevOps, Docker, Agile/Scrum, CI/CD.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card skillsText h-100">
+                    <div class="card-body">
+                        <h4 class="card-title mt-3">Programming & Data</h4>
+                        <p class="card-text mt-3">
+                            Java, Python, JavaScript, TypeScript, SQL, PHP, MySQL,
+                            MongoDB, JDBC, REST APIs, backend workflow validation.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="col-lg-4 mt-4">
-        <div class="card skillsText">
-            <div class="card-body">
-                <h4 class="card-title mt-3">Automation & Tools</h4>
-                <p class="card-text mt-3">
-                    JUnit, Selenium, Playwright, REST API Testing, Git, GitHub, Jira,
-                    Jenkins, Azure DevOps, Docker, Agile/Scrum, CI/CD.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-4 mt-4">
-        <div class="card skillsText">
-            <div class="card-body">
-                <h4 class="card-title mt-3">Programming & Data</h4>
-                <p class="card-text mt-3">
-                    Java, Python, JavaScript, TypeScript, SQL, PHP, MySQL,
-                    MongoDB, JDBC, REST APIs, backend workflow validation.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-```
-
-</section>
-
     </section>
 
-    <!-- footer section-->
-    <footer class="container-fluid footer" id="footer">
-        <!-- social media icons -->
-        <div class="social-icons mt-4">
-            <a href="https://github.com/SHREENITHI-TV" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:shreenithivaradharajan@gmail.com" target="_blank"><i class="fab fa fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/shreenithi-tv/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- Projects Section -->
+    <section class="container mt-3 section" id="projects">
+        <h1 class="text-center" style="padding-top: 35px;">Featured Projects</h1>
+
+        <p class="text-center">
+            Selected projects across software engineering, testing, backend validation, search, and machine learning.
+        </p>
+
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-4 mt-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/5.1- scientific cal Java Jar .png" alt="Scientific Calculator project screenshot" style="width:95%">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Java Desktop Application Testing</h4>
+
+                        <p class="card-text">
+                            Java-based scientific calculator packaged as a JAR file. This project demonstrates desktop
+                            application logic, input handling, functional validation, and calculation workflow testing.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Focus:</strong> Java UI logic, input validation, functional testing.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/Scientific-Calculator"
+                                class="btn btn-dark" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-4 mt-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/5.2- SI Java Jar .png" alt="Simple Interest Calculator project screenshot" style="width:95%">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Financial Calculation Utility</h4>
+
+                        <p class="card-text">
+                            Java-based simple interest calculator designed to process user inputs and compute financial
+                            outputs. Useful for demonstrating validation of formulas, input boundaries, and result accuracy.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Focus:</strong> Java, calculation testing, boundary validation.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/SI-Calculator"
+                                class="btn btn-dark" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4 mt-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/5.3 XO game.png" alt="Cross N Knot game screenshot" style="width:100%">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Java Game with Database Tracking</h4>
+
+                        <p class="card-text">
+                            Java-based XO game packaged as a JAR file with scoreboard tracking connected to a database.
+                            Demonstrates event-driven logic, database interaction, and user workflow validation.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Focus:</strong> Java, database connection, workflow testing.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/Cross-N-Knot-Game"
+                                class="btn btn-dark" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-lg-4 mt-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/2. Language Translator.png" alt="Language Translator project screenshot" style="width:100%">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Language Translator Web App</h4>
+
+                        <p class="card-text">
+                            Frontend web application for language translation workflows. Demonstrates user interface design,
+                            input handling, and browser-based interaction.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Focus:</strong> Frontend validation, UI workflow, JavaScript.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="https://shreenithi-tv.github.io/Translator/" class="btn btn-secondary" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-lg-4 mt-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/3.Typing speed test game.png" alt="Typing Speed Test project screenshot" style="width:100%">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Typing Speed Test Game</h4>
+
+                        <p class="card-text">
+                            Browser-based typing speed test that measures user performance within a timed session.
+                            Demonstrates DOM interaction, timer logic, result calculation, and user feedback.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Focus:</strong> JavaScript logic, UI validation, user interaction.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="https://shreenithi-tv.github.io/TypingSpeedTest/" class="btn btn-secondary" target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="col-lg-4 mt-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Software Quality Practice</h4>
+
+                        <p class="card-text">
+                            Testing-focused work across Java, web, backend, SQL, API, and validation projects.
+                            This area will be expanded with test plans, test cases, bug report samples, and regression testing notes.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Focus:</strong> Test case design, defect tracking, RCA, release readiness.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="https://github.com/SHREENITHI-TV" class="btn btn-dark" target="_blank">
+                                View GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <span>&copy;Shreenithi - Portfolio Website</span>
+    </section>
+
+   <!-- Footer Section -->
+    <footer class="container-fluid footer" id="footer">
+        <div class="social-icons mt-4">
+            <a href="https://github.com/SHREENITHI-TV" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="mailto:shreenithivaradharajan@gmail.com" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/shreenithi-tv/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <span>&copy; Shreenithi T. V. - Portfolio Website</span>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
     <script src="script/script.js"></script>
 </body>
 
