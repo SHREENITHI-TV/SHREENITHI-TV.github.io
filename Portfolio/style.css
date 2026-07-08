@@ -323,3 +323,57 @@ footer {
     border-top: 1px solid #e5e7eb;
     padding-top: 40px;
 }
+/* Contact section */
+
+.contact-card {
+    background: #111827;
+    color: #ffffff;
+    padding: 36px;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.contact-card h3 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.contact-card p {
+    color: #e5e7eb;
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #111827;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.contact-link:hover {
+    transform: translateY(-3px);
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.footer {
+    text-align: center;
+    padding: 28px;
+    background: #111827;
+    color: #ffffff;
+}
