@@ -156,3 +156,72 @@
     margin-top: 4rem;
     padding-top: 4rem;
 }
+
+/* Professional readability improvements */
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.card-text,
+#about p,
+#experience p,
+#experience li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #374151;
+}
+
+#skills .card,
+#experience .card,
+#projects .card {
+    background-color: #ffffff;
+}
+
+.badge {
+    margin: 4px 4px 0 0;
+    padding: 8px 10px;
+    font-weight: 500;
+}
+
+.hero-buttons .btn {
+    margin-top: 8px;
+}
+
+#about ul,
+#experience ul {
+    padding-left: 20px;
+}
+
+#about li,
+#experience li {
+    margin-bottom: 8px;
+}
+
+.image_about {
+    max-width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+    margin-top: 60px;
+}
