@@ -270,3 +270,56 @@ footer {
     line-height: 1.7;
     margin-bottom: 0;
 }
+/* Project card readability */
+
+.project-card {
+    min-height: 100%;
+}
+
+.project-summary {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #374151;
+    margin-bottom: 14px;
+}
+
+.project-focus {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #4b5563;
+    margin-bottom: 14px;
+}
+
+.project-tags {
+    margin-bottom: 20px;
+}
+
+.project-tags span {
+    display: inline-block;
+    background: #f3f4f6;
+    color: #111827;
+    border-radius: 999px;
+    padding: 6px 10px;
+    margin: 4px 4px 4px 0;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.project-card-highlight {
+    border: 1px solid #111827;
+}
+
+.project-btn {
+    min-width: 140px;
+}
+
+.practice-card img {
+    height: 180px;
+    object-fit: cover;
+    padding: 12px;
+}
+
+.earlier-projects {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 40px;
+}
