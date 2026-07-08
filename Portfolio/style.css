@@ -225,3 +225,48 @@
 footer {
     margin-top: 60px;
 }
+
+/* About section cleanup */
+
+.about-highlight-card {
+    background: #111827;
+    color: #ffffff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-highlight-card h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-highlight-card p {
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+.about-mini-card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-mini-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-mini-card h5 {
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.about-mini-card p {
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
