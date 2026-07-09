@@ -9,7 +9,7 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
@@ -21,7 +21,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#home">Shreenithi</a>
 
@@ -32,9 +32,9 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -42,151 +42,191 @@
                     </li>
 
                     <li class="nav-item">
-    <a class="nav-link" href="#skills">Skills</a>
-</li>
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
 
-<li class="nav-item">
-    <a class="nav-link" href="#experience">Experience</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
 
-<li class="nav-item">
-    <a class="nav-link" href="#projects">Projects</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Case Studies</a>
+                    </li>
 
-                   <li class="nav-item">
-    <a class="nav-link" href="#contact">Contact</a>
-</li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-contact" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Main Banner -->
-<section class="bgimage" id="home">
-    <div class="hero-overlay">
-        <div class="container">
-            <div class="row min-vh-100 align-items-center">
-                <div class="col-lg-8 hero-text">
-                    <p class="hero-kicker">MS Computer Science Graduate</p>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="row align-items-center justify-content-between g-5">
+                    <div class="col-lg-7 hero-text">
+                        <p class="hero-kicker">MS Computer Science Graduate</p>
 
-                    <h1 class="hero_title">
-                        Shreenithi
-                    </h1>
+                        <h1 class="hero-title">Shreenithi</h1>
 
-                    <h2 class="hero_role">
-                        Software Engineer | QA & Test Automation | Backend/API Validation
-                    </h2>
+                        <h2 class="hero-role">
+                            Software Engineer | QA & Test Automation | Backend/API Validation
+                        </h2>
 
-                    <p class="hero_desc">
-                        I build and validate reliable software systems through backend development,
-                        test automation, API/UI validation, SQL-based checks, and structured debugging.
-                    </p>
+                        <p class="hero-desc">
+                            I build and validate reliable software systems through backend development,
+                            test automation, API/UI validation, SQL-based checks, and structured debugging.
+                        </p>
 
-                    <div class="hero-buttons mt-4">
-                        <a href="#projects" class="btn btn-light me-2">View Projects</a>
-                        <a href="#experience" class="btn btn-outline-light me-2">Experience</a>
-                        <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-light" target="_blank">GitHub</a>
+                        <div class="hero-buttons mt-4">
+                            <a href="#projects" class="btn btn-primary-custom me-2">View Case Studies</a>
+                            <a href="#experience" class="btn btn-outline-custom me-2">Experience</a>
+                            <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-custom" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="hero-snapshot-card">
+                            <p class="snapshot-label">Portfolio Snapshot</p>
+
+                            <div class="snapshot-row">
+                                <span>Core Focus</span>
+                                <strong>Software Quality</strong>
+                            </div>
+
+                            <div class="snapshot-row">
+                                <span>Project Style</span>
+                                <strong>Build + Validate</strong>
+                            </div>
+
+                            <div class="snapshot-row">
+                                <span>Strengths</span>
+                                <strong>Java · Python · SQL</strong>
+                            </div>
+
+                            <div class="snapshot-row">
+                                <span>Interested In</span>
+                                <strong>QA · SDET · SWE</strong>
+                            </div>
+
+                            <div class="snapshot-tags">
+                                <span>Testing</span>
+                                <span>Backend Validation</span>
+                                <span>Search</span>
+                                <span>ML Evaluation</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
 
     <!-- About Section -->
-<section class="container section" id="about">
-    <h1 class="text-center" style="padding-top: 35px;">About Me</h1>
+    <section class="container section" id="about">
+        <h1 class="section-title text-center">About Me</h1>
 
-    <p class="text-center mb-5">
-        Software engineering graduate focused on building, testing, validating, and improving reliable software systems.
-    </p>
+        <p class="section-subtitle text-center mb-5">
+            Software engineering graduate focused on building, testing, validating, and improving reliable software systems.
+        </p>
 
-    <div class="row align-items-center">
-        <div class="col-lg-5 mb-4">
-            <div class="about-highlight-card">
-                <h3>Software Engineer with a Quality Mindset</h3>
+        <div class="row align-items-center g-4">
+            <div class="col-lg-5">
+                <div class="about-highlight-card">
+                    <h3>Software Engineer with a Quality Mindset</h3>
 
-                <p>
-                    I am an MS Computer Science graduate with hands-on experience in software quality assurance,
-                    test automation, backend validation, and software maintenance.
-                </p>
+                    <p>
+                        I am an MS Computer Science graduate with hands-on experience in software quality assurance,
+                        test automation, backend validation, and software maintenance.
+                    </p>
 
-                <p>
-                    My work includes validating production web workflows, designing functional and regression test suites,
-                    debugging Java-based applications, writing SQL validation logic, and documenting release-readiness results.
-                </p>
+                    <p>
+                        My work includes validating production web workflows, designing functional and regression test suites,
+                        debugging Java-based applications, writing SQL validation logic, and documenting release-readiness results.
+                    </p>
 
-                <div class="mt-3">
-                    <span class="badge bg-dark">Java</span>
-                    <span class="badge bg-dark">Python</span>
-                    <span class="badge bg-dark">SQL</span>
-                    <span class="badge bg-dark">JUnit</span>
-                    <span class="badge bg-dark">Selenium</span>
-                    <span class="badge bg-dark">Playwright</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-7">
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="about-mini-card h-100">
-                        <h5>Software Engineering</h5>
-                        <p>
-                            Experience with Java, Python, SQL, backend workflows, database-driven systems,
-                            and practical application development.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mb-4">
-                    <div class="about-mini-card h-100">
-                        <h5>QA & Test Automation</h5>
-                        <p>
-                            Skilled in functional testing, regression testing, test case design,
-                            API/UI validation, and automation-focused quality practices.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mb-4">
-                    <div class="about-mini-card h-100">
-                        <h5>Debugging & Validation</h5>
-                        <p>
-                            Comfortable with root-cause analysis, defect verification, backend validation,
-                            SQL checks, and release-readiness documentation.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mb-4">
-                    <div class="about-mini-card h-100">
-                        <h5>Current Role Focus</h5>
-                        <p>
-                            Targeting Software Engineer, QA Engineer, Software Test Engineer,
-                            Test Automation Engineer, and SDET-style roles.
-                        </p>
+                    <div class="skill-pills mt-3">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>JUnit</span>
+                        <span>Selenium</span>
+                        <span>Playwright</span>
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-7">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="about-mini-card h-100">
+                            <i class="fas fa-code"></i>
+                            <h5>Software Engineering</h5>
+                            <p>
+                                Experience with Java, Python, SQL, backend workflows, database-driven systems,
+                                and practical application development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about-mini-card h-100">
+                            <i class="fas fa-vial"></i>
+                            <h5>QA & Test Automation</h5>
+                            <p>
+                                Skilled in functional testing, regression testing, test case design,
+                                API/UI validation, and automation-focused quality practices.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about-mini-card h-100">
+                            <i class="fas fa-bug"></i>
+                            <h5>Debugging & Validation</h5>
+                            <p>
+                                Comfortable with root-cause analysis, defect verification, backend validation,
+                                SQL checks, and release-readiness documentation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about-mini-card h-100">
+                            <i class="fas fa-briefcase"></i>
+                            <h5>Current Role Focus</h5>
+                            <p>
+                                Targeting Software Engineer, QA Engineer, Software Test Engineer,
+                                Test Automation Engineer, and SDET-style roles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
-    
+    </section>
+
     <!-- Skills Section -->
     <section class="container section" id="skills">
-        <h1 class="text-center" style="padding-top: 35px;">Core Skills</h1>
+        <h1 class="section-title text-center">Core Skills</h1>
 
-        <p class="text-center">
+        <p class="section-subtitle text-center mb-5">
             Technical areas aligned with software engineering, QA automation, backend validation, and software reliability.
         </p>
 
-        <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card skillsText h-100">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card skill-card h-100">
                     <div class="card-body">
-                        <h4 class="card-title mt-3">Testing & QA</h4>
-                        <p class="card-text mt-3">
+                        <i class="fas fa-check-circle skill-icon"></i>
+                        <h4 class="card-title">Testing & QA</h4>
+                        <p class="card-text">
                             Functional Testing, Regression Testing, Smoke Testing, Integration Testing,
                             UI Testing, API Testing, Test Case Design, Defect Tracking, Verification & Validation.
                         </p>
@@ -194,11 +234,12 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 mt-4">
-                <div class="card skillsText h-100">
+            <div class="col-lg-4">
+                <div class="card skill-card h-100">
                     <div class="card-body">
-                        <h4 class="card-title mt-3">Automation & Tools</h4>
-                        <p class="card-text mt-3">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h4 class="card-title">Automation & Tools</h4>
+                        <p class="card-text">
                             JUnit, Selenium, Playwright, REST API Testing, Git, GitHub, Jira,
                             Jenkins, Azure DevOps, Docker, Agile/Scrum, CI/CD.
                         </p>
@@ -206,11 +247,12 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 mt-4">
-                <div class="card skillsText h-100">
+            <div class="col-lg-4">
+                <div class="card skill-card h-100">
                     <div class="card-body">
-                        <h4 class="card-title mt-3">Programming & Data</h4>
-                        <p class="card-text mt-3">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h4 class="card-title">Programming & Data</h4>
+                        <p class="card-text">
                             Java, Python, JavaScript, TypeScript, SQL, PHP, MySQL,
                             MongoDB, JDBC, REST APIs, backend workflow validation.
                         </p>
@@ -220,384 +262,403 @@
         </div>
     </section>
 
-<!-- Experience Section -->
-<section class="container section" id="experience">
-    <h1 class="text-center" style="padding-top: 35px;">Experience</h1>
+    <!-- Experience Section -->
+    <section class="container section" id="experience">
+        <h1 class="section-title text-center">Experience</h1>
 
-    <p class="text-center">
-        Hands-on experience in software quality assurance, backend validation, production debugging, and release-readiness support.
+        <p class="section-subtitle text-center mb-5">
+            Hands-on experience in software quality assurance, backend validation, production debugging, and release-readiness support.
+        </p>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card experience-card h-100">
+                    <div class="card-body">
+                        <p class="experience-label">Production QA · Web Platform</p>
+                        <h4 class="card-title">Junior Staff / Graduate Student Associate</h4>
+                        <h6 class="text-muted">CSULB College of Engineering - OPD&amp;I</h6>
+                        <p class="text-muted">January 2025 - May 2026</p>
+
+                        <p>
+                            Supported quality assurance and maintenance for a production Drupal web platform,
+                            focusing on reliability, usability, data accuracy, and stakeholder-driven issue resolution.
+                        </p>
+
+                        <ul>
+                            <li>Conducted end-to-end QA and validation checks on production web workflows.</li>
+                            <li>Diagnosed and resolved production issues using structured root-cause analysis.</li>
+                            <li>Validated backend reporting workflows and SQL-based data processes.</li>
+                            <li>Supported privacy-aware validation aligned with institutional data policies.</li>
+                        </ul>
+
+                        <div class="project-tags mt-3">
+                            <span>QA Validation</span>
+                            <span>Drupal</span>
+                            <span>SQL</span>
+                            <span>RCA</span>
+                            <span>Production Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card experience-card h-100">
+                    <div class="card-body">
+                        <p class="experience-label">Java · Testing · Debugging</p>
+                        <h4 class="card-title">Software Development Engineer Intern</h4>
+                        <h6 class="text-muted">HCL Technologies - QA &amp; Testing Focus</h6>
+                        <p class="text-muted">January 2023 - May 2023</p>
+
+                        <p>
+                            Designed, tested, and improved a Java Swing/JDBC desktop application with a focus on
+                            functional correctness, regression testing, debugging, and release-readiness documentation.
+                        </p>
+
+                        <ul>
+                            <li>Designed and executed functional and regression test suites.</li>
+                            <li>Identified defects and performed code-level root-cause analysis.</li>
+                            <li>Improved exception handling and application stability.</li>
+                            <li>Maintained validation logs and release-readiness documentation.</li>
+                        </ul>
+
+                        <div class="project-tags mt-3">
+                            <span>Java</span>
+                            <span>Swing</span>
+                            <span>JDBC</span>
+                            <span>Regression Testing</span>
+                            <span>Debugging</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="container section" id="projects">
+        <h1 class="section-title text-center">Selected Case Studies</h1>
+
+        <p class="section-subtitle text-center mb-5">
+            A focused view of projects that show how I build, test, validate, and evaluate software systems.
+        </p>
+
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">Search Evaluation</p>
+                        <h4 class="card-title">Hybrid Information Retrieval</h4>
+
+                        <p class="project-summary">
+                            Hybrid search system combining BM25 lexical retrieval with dense semantic retrieval.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I validated:</strong> Ranking quality, retrieval metrics, model comparison, and failure patterns.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>BM25</span>
+                            <span>Dense Retrieval</span>
+                            <span>NLP</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/Hybrid-Information-Retrieval"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">Backend Validation</p>
+                        <h4 class="card-title">Library Management System</h4>
+
+                        <p class="project-summary">
+                            PHP-MySQL maintenance project with soft delete, restore, version history, and activity logging.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I validated:</strong> CRUD workflows, SQL behavior, deleted records, and admin-side reliability.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>Testing</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/Library-Management-System-Software-Maintenance"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">Java Desktop App</p>
+                        <h4 class="card-title">CFMS Desktop Application</h4>
+
+                        <p class="project-summary">
+                            Java Swing desktop application with MySQL backend for customer feedback workflows.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I validated:</strong> Form behavior, database reliability, workflow correctness, and exception handling.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Swing</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/CFMS-desktop-application"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">Published Mobile AI</p>
+                        <h4 class="card-title">Mobile Veggie Detector</h4>
+
+                        <p class="project-summary">
+                            Android computer vision application for real-time vegetable detection using camera input.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I built:</strong> Mobile AI workflow connecting camera-based input, detection logic, and app usability.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Android</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/Mobile-Veggie-Detector"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">NLP Classification</p>
+                        <h4 class="card-title">Amazon Reviews Sentiment Analysis</h4>
+
+                        <p class="project-summary">
+                            Sentiment classification project using classical ML and DistilBERT-based NLP modeling.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I evaluated:</strong> Text classification quality, ROC-AUC, model performance, and data patterns.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>DistilBERT</span>
+                            <span>NLP</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">Medical Imaging</p>
+                        <h4 class="card-title">Pneumonia Detection using DenseNet</h4>
+
+                        <p class="project-summary">
+                            DenseNet121-based chest X-ray classification project for pneumonia detection.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I evaluated:</strong> Classification metrics, ROC curve, AUC score, and model behavior.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>DenseNet121</span>
+                            <span>CNN</span>
+                            <span>ROC-AUC</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/Pneumonia-Detection-using-DenseNet"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Projects -->
+<div class="earlier-projects mt-5">
+    <h2 class="text-center">Additional Projects</h2>
+
+    <p class="text-center mb-4">
+        Smaller projects that strengthened my foundation in Java desktop apps, Angular, JavaScript, UI workflows, and browser-based applications.
     </p>
 
-    <div class="row mt-4">
-        <!-- Experience 1 -->
-        <div class="col-lg-6 mt-4">
-            <div class="card h-100 experience-card">
-                <div class="card-body">
-                    <h4 class="card-title">Junior Staff / Graduate Student Associate</h4>
-                    <h6 class="text-muted">CSULB College of Engineering — OPD&amp;I</h6>
-                    <p class="text-muted">January 2025 – May 2026</p>
-
-                    <p>
-                        Supported quality assurance and maintenance for a production Drupal web platform,
-                        focusing on reliability, usability, data accuracy, and stakeholder-driven issue resolution.
-                    </p>
-
-                    <ul>
-                        <li>Conducted end-to-end QA and validation checks on production web workflows.</li>
-                        <li>Diagnosed and resolved production issues using structured root-cause analysis.</li>
-                        <li>Validated backend reporting workflows and SQL-based data processes.</li>
-                        <li>Supported privacy-aware validation aligned with institutional data policies.</li>
-                    </ul>
-
-                    <div class="mt-3">
-                        <span class="badge bg-dark">QA Validation</span>
-                        <span class="badge bg-dark">Drupal</span>
-                        <span class="badge bg-dark">SQL</span>
-                        <span class="badge bg-dark">RCA</span>
-                        <span class="badge bg-dark">Production Support</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="col-lg-6 mt-4">
-            <div class="card h-100 experience-card">
-                <div class="card-body">
-                    <h4 class="card-title">Software Development Engineer Intern</h4>
-                    <h6 class="text-muted">HCL Technologies — QA &amp; Testing Focus</h6>
-                    <p class="text-muted">January 2023 – May 2023</p>
-
-                    <p>
-                        Designed, tested, and improved a Java Swing/JDBC desktop application with a focus on
-                        functional correctness, regression testing, debugging, and release-readiness documentation.
-                    </p>
-
-                    <ul>
-                        <li>Designed and executed functional and regression test suites.</li>
-                        <li>Identified defects and performed code-level root-cause analysis.</li>
-                        <li>Improved exception handling and application stability.</li>
-                        <li>Maintained validation logs and release-readiness documentation.</li>
-                    </ul>
-
-                    <div class="mt-3">
-                        <span class="badge bg-dark">Java</span>
-                        <span class="badge bg-dark">Swing</span>
-                        <span class="badge bg-dark">JDBC</span>
-                        <span class="badge bg-dark">Regression Testing</span>
-                        <span class="badge bg-dark">Debugging</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-   <!-- Projects Section -->
-<section class="container mt-3 section" id="projects">
-    <h1 class="text-center" style="padding-top: 35px;">Featured Projects</h1>
-
-    <p class="text-center mb-5">
-        Selected projects across software engineering, QA/testing, backend validation, search systems, machine learning, and mobile AI.
-    </p>
-
-    <div class="row">
-        <!-- Project 1 -->
-        <div class="col-lg-4 mt-4">
-            <div class="card h-100 project-card">
+    <div class="row g-4">
+        <div class="col-lg-4">
+            <div class="card practice-card h-100">
                 <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Hybrid Information Retrieval</h4>
+                    <p class="case-label">Java Desktop Apps</p>
 
-                    <p class="project-summary">
-                        Hybrid search system combining BM25 lexical retrieval with transformer-based semantic retrieval.
-                    </p>
+                    <h4 class="card-title">Java GUI Mini Suite</h4>
 
-                    <p class="project-focus">
-                        <strong>Focus:</strong> Ranking validation, model comparison, retrieval quality.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>Python</span>
-                        <span>BM25</span>
-                        <span>Transformers</span>
-                        <span>NLP</span>
-                        <span>Evaluation</span>
-                    </div>
-
-                    <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Hybrid-Information-Retrieval"
-                            class="btn btn-dark project-btn" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="col-lg-4 mt-4">
-            <div class="card h-100 project-card">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Library Management System</h4>
-
-                    <p class="project-summary">
-                        PHP-MySQL system enhanced with soft delete, version history, and admin activity logging.
-                    </p>
-
-                    <p class="project-focus">
-                        <strong>Focus:</strong> Backend validation, CRUD testing, regression testing.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>SQL</span>
-                        <span>Maintenance</span>
-                        <span>Testing</span>
-                    </div>
-
-                    <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Library-Management-System-Software-Maintenance"
-                            class="btn btn-dark project-btn" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="col-lg-4 mt-4">
-            <div class="card h-100 project-card">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">CFMS Desktop Application</h4>
-
-                    <p class="project-summary">
-                        Java Swing desktop application with MySQL backend for customer feedback workflows.
-                    </p>
-
-                    <p class="project-focus">
-                        <strong>Focus:</strong> Form validation, database reliability, debugging.
+                    <p class="card-text">
+                        Collection of Java Swing mini desktop apps including calculators and a Tic-Tac-Toe game, built with Apache NetBeans.
                     </p>
 
                     <div class="project-tags">
                         <span>Java</span>
                         <span>Swing</span>
-                        <span>JDBC</span>
-                        <span>MySQL</span>
-                        <span>Validation</span>
+                        <span>NetBeans</span>
+                        <span>JAR Files</span>
                     </div>
 
                     <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/CFMS-desktop-application"
-                            class="btn btn-dark project-btn" target="_blank">View Project</a>
+                        <a href="https://github.com/SHREENITHI-TV/Java-GUI-Mini-Suite"
+                            class="btn btn-secondary project-btn" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Project 4 -->
-        <div class="col-lg-4 mt-4">
-            <div class="card h-100 project-card">
+        <div class="col-lg-4">
+            <div class="card practice-card h-100">
                 <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Mobile Veggie Detector</h4>
+                    <p class="case-label">Angular Frontend</p>
 
-                    <p class="project-summary">
-                        Mobile deep learning application for real-time vegetable detection using camera input.
-                    </p>
+                    <h4 class="card-title">Angular Expense Tracker</h4>
 
-                    <p class="project-focus">
-                        <strong>Focus:</strong> Mobile AI, computer vision, model integration.
+                    <p class="card-text">
+                        Angular and TypeScript household expense tracking app focused on frontend structure and budgeting workflow design.
                     </p>
 
                     <div class="project-tags">
-                        <span>Java</span>
-                        <span>Android</span>
-                        <span>CNN</span>
-                        <span>Keras</span>
-                        <span>Computer Vision</span>
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>Frontend</span>
+                        <span>Budgeting</span>
                     </div>
 
                     <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Mobile-Veggie-Detector"
-                            class="btn btn-dark project-btn" target="_blank">View Project</a>
+                        <a href="https://github.com/SHREENITHI-TV/Angular-Project-Expense-Tracker"
+                            class="btn btn-secondary project-btn" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Project 5 -->
-        <div class="col-lg-4 mt-4">
-            <div class="card h-100 project-card">
+        <div class="col-lg-4">
+            <div class="card practice-card h-100">
                 <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Amazon Reviews Sentiment Analysis</h4>
+                    <p class="case-label">Browser App</p>
 
-                    <p class="project-summary">
-                        Sentiment classification project using classical ML and transformer-based NLP models.
-                    </p>
+                    <h4 class="card-title">Typing Speed Test Game</h4>
 
-                    <p class="project-focus">
-                        <strong>Focus:</strong> Text classification, model evaluation, NLP workflow validation.
+                    <p class="card-text">
+                        JavaScript browser project for timer logic, DOM updates, result calculation, and user feedback.
                     </p>
 
                     <div class="project-tags">
-                        <span>Python</span>
-                        <span>Scikit-learn</span>
-                        <span>Transformers</span>
-                        <span>NLP</span>
-                        <span>ML</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>DOM</span>
                     </div>
 
                     <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis"
-                            class="btn btn-dark project-btn" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div class="col-lg-4 mt-4">
-            <div class="card h-100 project-card project-card-highlight">
-                <div class="card-body d-flex flex-column">
-                    <h4 class="card-title">Software Testing & QA Evidence</h4>
-
-                    <p class="project-summary">
-                        Planned testing evidence section for test plans, test cases, bug reports, API validation, and automation samples.
-                    </p>
-
-                    <p class="project-focus">
-                        <strong>Focus:</strong> Test design, RCA, defect tracking, release readiness.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>JUnit</span>
-                        <span>Selenium</span>
-                        <span>Playwright</span>
-                        <span>API Testing</span>
-                        <span>RCA</span>
-                    </div>
-
-                    <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Software-Testing-QA-Evidence"
-    class="btn btn-dark project-btn" target="_blank">View Evidence</a>
+                        <a href="https://shreenithi-tv.github.io/TypingSpeedTest/"
+                            class="btn btn-secondary project-btn" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Earlier Practice Projects -->
-    <div class="mt-5 earlier-projects">
-        <h2 class="text-center">Earlier Practice Projects</h2>
+    <div class="text-center mt-4">
+        <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-dark" target="_blank">
+            View More Projects on GitHub
+        </a>
+    </div>
+</div>
 
-        <p class="text-center mb-4">
-            Smaller projects that helped build my foundation in Java, JavaScript, UI workflows, and browser-based applications.
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container section" id="contact">
+        <h1 class="section-title text-center">Contact</h1>
+
+        <p class="section-subtitle text-center mb-5">
+            Open to entry-level Software Engineer, QA Engineer, Software Test Engineer, Test Automation Engineer, and SDET-style roles.
         </p>
 
-        <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card h-100 practice-card">
-                    <img class="card-img-top" src="images/5.1- scientific cal Java Jar .png"
-                        alt="Scientific Calculator project screenshot">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-card">
+                    <h3>Let’s connect</h3>
 
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">Java Scientific Calculator</h4>
+                    <p>
+                        I am interested in opportunities where I can contribute to software quality,
+                        backend/API validation, test automation, debugging, and reliable software delivery.
+                    </p>
 
-                        <p class="card-text">
-                            Desktop calculator project for Java UI logic, input handling, and calculation validation.
-                        </p>
+                    <div class="contact-links">
+                        <a href="mailto:shreenithivaradharajan@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            Email
+                        </a>
 
-                        <div class="mt-auto text-center">
-                            <a href="https://github.com/SHREENITHI-TV/JAR-Files-JAVA-NETBEANS/tree/Scientific-Calculator"
-                                class="btn btn-secondary project-btn" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <a href="https://www.linkedin.com/in/shreenithi-tv/" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
 
-            <div class="col-lg-4 mt-4">
-                <div class="card h-100 practice-card">
-                    <img class="card-img-top" src="images/2. Language Translator.png"
-                        alt="Language Translator project screenshot">
-
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">Language Translator Web App</h4>
-
-                        <p class="card-text">
-                            Browser-based frontend project for UI workflow, input handling, and JavaScript interaction.
-                        </p>
-
-                        <div class="mt-auto text-center">
-                            <a href="https://shreenithi-tv.github.io/Translator/"
-                                class="btn btn-secondary project-btn" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4">
-                <div class="card h-100 practice-card">
-                    <img class="card-img-top" src="images/3.Typing speed test game.png"
-                        alt="Typing Speed Test project screenshot">
-
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">Typing Speed Test Game</h4>
-
-                        <p class="card-text">
-                            JavaScript project for timer logic, DOM updates, result calculation, and user feedback.
-                        </p>
-
-                        <div class="mt-auto text-center">
-                            <a href="https://shreenithi-tv.github.io/TypingSpeedTest/"
-                                class="btn btn-secondary project-btn" target="_blank">View Project</a>
-                        </div>
+                        <a href="https://github.com/SHREENITHI-TV" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Contact Section -->
-<section class="container section" id="contact">
-    <h1 class="text-center" style="padding-top: 35px;">Contact</h1>
-
-    <p class="text-center mb-5">
-        Open to entry-level Software Engineer, QA Engineer, Software Test Engineer, Test Automation Engineer, and SDET-style roles.
-    </p>
-
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <div class="contact-card">
-                <h3>Let’s connect</h3>
-
-                <p>
-                    I am interested in opportunities where I can contribute to software quality,
-                    backend/API validation, test automation, debugging, and reliable software delivery.
-                </p>
-
-                <div class="contact-links">
-                    <a href="mailto:shreenithivaradharajan@gmail.com" class="contact-link">
-                        <i class="fas fa-envelope"></i>
-                        Email
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/shreenithi-tv/" class="contact-link" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-
-                    <a href="https://github.com/SHREENITHI-TV" class="contact-link" target="_blank">
-                        <i class="fab fa-github"></i>
-                        GitHub
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-<!-- Footer Section -->
-<footer class="container-fluid footer" id="footer">
-    <span>&copy; Shreenithi T V - Portfolio Website</span>
-</footer>
+    <!-- Footer -->
+    <footer class="container-fluid footer" id="footer">
+        <span>&copy; Shreenithi T V - Portfolio Website</span>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
