@@ -19,7 +19,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 
-<body>
+<body class="software-mode">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
@@ -35,6 +35,10 @@
                 <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item">
                         <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#views">Views</a>
                     </li>
 
                     <li class="nav-item">
@@ -81,8 +85,8 @@
                         </p>
 
                         <div class="hero-buttons mt-4">
-                            <a href="#projects" class="btn btn-primary-custom me-2">View Case Studies</a>
-                            <a href="#experience" class="btn btn-outline-custom me-2">Experience</a>
+                            <a href="#views" class="btn btn-primary-custom me-2">Choose Portfolio View</a>
+                            <a href="#projects" class="btn btn-outline-custom me-2">View Case Studies</a>
                             <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-custom" target="_blank">View GitHub</a>
                         </div>
                     </div>
@@ -123,9 +127,112 @@
             </div>
         </div>
 
-        <a href="#about" class="scroll-indicator" aria-label="Scroll to About">
+        <a href="#views" class="scroll-indicator" aria-label="Scroll to portfolio views">
             <i class="fas fa-chevron-down"></i>
         </a>
+    </section>
+
+    <!-- Interactive Portfolio View Switcher -->
+    <section class="container section role-switch-section" id="views">
+        <h1 class="section-title text-center">Choose a Portfolio View</h1>
+
+        <p class="section-subtitle text-center mb-5">
+            Explore my portfolio through the lens of the role you are hiring for.
+        </p>
+
+        <div class="role-toggle-wrapper">
+            <button class="role-toggle active" type="button" data-view-btn="software">
+                <i class="fas fa-laptop-code"></i>
+                Software Engineering View
+            </button>
+
+            <button class="role-toggle" type="button" data-view-btn="qa">
+                <i class="fas fa-vial"></i>
+                QA / Software Testing View
+            </button>
+        </div>
+
+        <div class="role-view-card mt-4" data-view-panel="software">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-5">
+                    <p class="view-label">Software Engineering View</p>
+
+                    <h2>Building practical software across web, desktop, backend, and data-driven systems.</h2>
+
+                    <p>
+                        This view highlights projects where I designed application workflows, worked with databases,
+                        built frontend/backend logic, and created maintainable technical solutions.
+                    </p>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="view-grid">
+                        <div class="view-item">
+                            <span>Primary Skills</span>
+                            <strong>Java · Python · SQL · Angular · PHP · MySQL</strong>
+                        </div>
+
+                        <div class="view-item">
+                            <span>Best Fit Roles</span>
+                            <strong>Software Engineer · Backend/API Validation · Entry-Level SWE</strong>
+                        </div>
+
+                        <div class="view-item">
+                            <span>Strong Project Examples</span>
+                            <strong>CFMS · Hybrid IR · Mobile Veggie Detector · Metrics Suite</strong>
+                        </div>
+
+                        <div class="view-item">
+                            <span>Engineering Focus</span>
+                            <strong>Clean workflows, maintainability, debugging, and data reliability</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="role-view-card mt-4 d-none" data-view-panel="qa">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-5">
+                    <p class="view-label qa-label">QA / Software Testing View</p>
+
+                    <h2>Validating software through functional testing, regression checks, SQL validation, and RCA.</h2>
+
+                    <p>
+                        This view highlights projects and experience where I tested workflows, verified backend behavior,
+                        checked data accuracy, documented issues, and improved release confidence.
+                    </p>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="view-grid">
+                        <div class="view-item">
+                            <span>Primary Skills</span>
+                            <strong>Functional Testing · Regression Testing · SQL Checks · API/UI Validation</strong>
+                        </div>
+
+                        <div class="view-item">
+                            <span>Best Fit Roles</span>
+                            <strong>QA Engineer · Test Automation Engineer · SDET · Software Test Engineer</strong>
+                        </div>
+
+                        <div class="view-item">
+                            <span>Strong Project Examples</span>
+                            <strong>Library System · Metrics Suite · CFMS · Pneumonia Detection</strong>
+                        </div>
+
+                        <div class="view-item">
+                            <span>Quality Focus</span>
+                            <strong>Defect tracking, root-cause analysis, validation evidence, and release readiness</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="view-helper text-center mt-4">
+            The case studies below update based on the selected view.
+        </p>
     </section>
 
     <!-- About Section -->
@@ -275,7 +382,9 @@
                 <div class="card experience-card h-100">
                     <div class="card-body">
                         <p class="experience-label">Production QA · Web Platform</p>
+
                         <h4 class="card-title">Junior Staff / Graduate Student Associate</h4>
+
                         <h6 class="text-muted">CSULB College of Engineering - OPD&amp;I</h6>
                         <p class="text-muted">January 2025 - May 2026</p>
 
@@ -306,7 +415,9 @@
                 <div class="card experience-card h-100">
                     <div class="card-body">
                         <p class="experience-label">Java · Testing · Debugging</p>
+
                         <h4 class="card-title">Software Development Engineer Intern</h4>
+
                         <h6 class="text-muted">HCL Technologies - QA &amp; Testing Focus</h6>
                         <p class="text-muted">January 2023 - May 2023</p>
 
@@ -339,44 +450,50 @@
     <section class="container section" id="projects">
         <h1 class="section-title text-center">Selected Case Studies</h1>
 
-        <p class="section-subtitle text-center mb-5">
+        <p class="section-subtitle text-center mb-4">
             A focused view of projects that show how I build, test, validate, and evaluate software systems.
         </p>
 
-        <div class="row g-4">
-            <div class="col-lg-4">
+        <div class="active-view-note text-center mb-5">
+            Showing: <span id="active-view-name">Software Engineering View</span>
+        </div>
+
+        <div class="row g-4" id="case-study-grid">
+            <div class="col-lg-4 project-card-wrapper" data-project-views="software qa">
                 <div class="card project-card h-100">
                     <div class="card-body d-flex flex-column">
-                        <p class="case-label">Search Evaluation</p>
-                        <h4 class="card-title">Hybrid Information Retrieval</h4>
+                        <p class="case-label">Software Metrics</p>
+
+                        <h4 class="card-title">Metrics Suite</h4>
 
                         <p class="project-summary">
-                            Hybrid search system combining BM25 lexical retrieval with dense semantic retrieval.
+                            Java Swing desktop application for software metrics calculation, testing, and verification workflows.
                         </p>
 
                         <p class="project-focus">
-                            <strong>What I validated:</strong> Ranking quality, retrieval metrics, model comparison, and failure patterns.
+                            <strong>What I validated:</strong> Function Points, Use Case Points, SMI workflows, input handling, and calculation behavior.
                         </p>
 
                         <div class="project-tags">
-                            <span>Python</span>
-                            <span>BM25</span>
-                            <span>Dense Retrieval</span>
-                            <span>NLP</span>
+                            <span>Java</span>
+                            <span>Swing</span>
+                            <span>Testing</span>
+                            <span>Verification</span>
                         </div>
 
                         <div class="mt-auto text-center">
-                            <a href="https://github.com/SHREENITHI-TV/Hybrid-Information-Retrieval"
+                            <a href="https://github.com/SHREENITHI-TV/CECS-544-Metrics-Suite"
                                 class="btn btn-dark project-btn" target="_blank">View Case Study</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 project-card-wrapper" data-project-views="qa">
                 <div class="card project-card h-100">
                     <div class="card-body d-flex flex-column">
                         <p class="case-label">Backend Validation</p>
+
                         <h4 class="card-title">Library Management System</h4>
 
                         <p class="project-summary">
@@ -384,14 +501,14 @@
                         </p>
 
                         <p class="project-focus">
-                            <strong>What I validated:</strong> CRUD workflows, SQL behavior, deleted records, and admin-side reliability.
+                            <strong>What I validated:</strong> CRUD workflows, SQL behavior, deleted records, restore flow, and admin-side reliability.
                         </p>
 
                         <div class="project-tags">
                             <span>PHP</span>
                             <span>MySQL</span>
                             <span>SQL</span>
-                            <span>Testing</span>
+                            <span>Regression</span>
                         </div>
 
                         <div class="mt-auto text-center">
@@ -402,14 +519,15 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 project-card-wrapper" data-project-views="software qa">
                 <div class="card project-card h-100">
                     <div class="card-body d-flex flex-column">
                         <p class="case-label">Java Desktop App</p>
+
                         <h4 class="card-title">CFMS Desktop Application</h4>
 
                         <p class="project-summary">
-                            Java Swing desktop application with MySQL backend for customer feedback workflows.
+                            Java Swing desktop application with MySQL backend for customer feedback management workflows.
                         </p>
 
                         <p class="project-focus">
@@ -431,10 +549,41 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 project-card-wrapper" data-project-views="software qa">
+                <div class="card project-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <p class="case-label">Search Evaluation</p>
+
+                        <h4 class="card-title">Hybrid Information Retrieval</h4>
+
+                        <p class="project-summary">
+                            Hybrid search system combining BM25 lexical retrieval with dense semantic retrieval.
+                        </p>
+
+                        <p class="project-focus">
+                            <strong>What I evaluated:</strong> Ranking quality, retrieval metrics, model comparison, and failure patterns.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>BM25</span>
+                            <span>Dense Retrieval</span>
+                            <span>NLP</span>
+                        </div>
+
+                        <div class="mt-auto text-center">
+                            <a href="https://github.com/SHREENITHI-TV/Hybrid-Information-Retrieval"
+                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 project-card-wrapper" data-project-views="software">
                 <div class="card project-card h-100">
                     <div class="card-body d-flex flex-column">
                         <p class="case-label">Published Mobile AI</p>
+
                         <h4 class="card-title">Mobile Veggie Detector</h4>
 
                         <p class="project-summary">
@@ -442,7 +591,7 @@
                         </p>
 
                         <p class="project-focus">
-                            <strong>What I built:</strong> Mobile AI workflow connecting camera-based input, detection logic, and app usability.
+                            <strong>What I built:</strong> Mobile AI workflow connecting camera input, detection logic, and app usability.
                         </p>
 
                         <div class="project-tags">
@@ -460,39 +609,11 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 project-card-wrapper" data-project-views="qa">
                 <div class="card project-card h-100">
                     <div class="card-body d-flex flex-column">
-                        <p class="case-label">NLP Classification</p>
-                        <h4 class="card-title">Amazon Reviews Sentiment Analysis</h4>
+                        <p class="case-label">Medical Imaging Evaluation</p>
 
-                        <p class="project-summary">
-                            Sentiment classification project using classical ML and DistilBERT-based NLP modeling.
-                        </p>
-
-                        <p class="project-focus">
-                            <strong>What I evaluated:</strong> Text classification quality, ROC-AUC, model performance, and data patterns.
-                        </p>
-
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Scikit-learn</span>
-                            <span>DistilBERT</span>
-                            <span>NLP</span>
-                        </div>
-
-                        <div class="mt-auto text-center">
-                            <a href="https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis"
-                                class="btn btn-dark project-btn" target="_blank">View Case Study</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="card project-card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <p class="case-label">Medical Imaging</p>
                         <h4 class="card-title">Pneumonia Detection using DenseNet</h4>
 
                         <p class="project-summary">
@@ -520,99 +641,171 @@
         </div>
 
         <!-- Additional Projects -->
-<div class="earlier-projects mt-5">
-    <h2 class="text-center">Additional Projects</h2>
+        <div class="earlier-projects mt-5">
+            <h2 class="text-center">Additional Projects</h2>
 
-    <p class="text-center mb-4">
-        Smaller projects that strengthened my foundation in Java desktop apps, Angular, JavaScript, UI workflows, and browser-based applications.
-    </p>
+            <p class="text-center mb-4">
+                Additional projects that show range across NLP, healthcare classification, Angular, Java desktop apps, and browser-based applications.
+            </p>
 
-    <div class="row g-4">
-        <div class="col-lg-4">
-            <div class="card practice-card h-100">
-                <div class="card-body d-flex flex-column">
-                    <p class="case-label">Java Desktop Apps</p>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card practice-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="case-label">NLP Classification</p>
 
-                    <h4 class="card-title">Java GUI Mini Suite</h4>
+                            <h4 class="card-title">Amazon Reviews Sentiment Analysis</h4>
 
-                    <p class="card-text">
-                        Collection of Java Swing mini desktop apps including calculators and a Tic-Tac-Toe game, built with Apache NetBeans.
-                    </p>
+                            <p class="card-text">
+                                Sentiment classification project using classical ML and DistilBERT-based NLP modeling.
+                            </p>
 
-                    <div class="project-tags">
-                        <span>Java</span>
-                        <span>Swing</span>
-                        <span>NetBeans</span>
-                        <span>JAR Files</span>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>DistilBERT</span>
+                                <span>NLP</span>
+                            </div>
+
+                            <div class="mt-auto text-center">
+                                <a href="https://github.com/SHREENITHI-TV/Amazon-Reviews-Sentiment-Analysis"
+                                    class="btn btn-secondary project-btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Java-GUI-Mini-Suite"
-                            class="btn btn-secondary project-btn" target="_blank">View Project</a>
+                <div class="col-lg-4">
+                    <div class="card practice-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="case-label">ECG Classification</p>
+
+                            <h4 class="card-title">ECG Rhythm Classification</h4>
+
+                            <p class="card-text">
+                                Machine learning project for classifying ECG rhythm categories using extracted ECG features.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>ML</span>
+                                <span>Macro-F1</span>
+                                <span>Healthcare AI</span>
+                            </div>
+
+                            <div class="mt-auto text-center">
+                                <a href="https://github.com/SHREENITHI-TV/ECG-Rhythm-Classification"
+                                    class="btn btn-secondary project-btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card practice-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="case-label">Angular Frontend</p>
+
+                            <h4 class="card-title">Angular Expense Tracker</h4>
+
+                            <p class="card-text">
+                                Angular and TypeScript household expense tracking app focused on frontend structure and budgeting workflows.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Angular</span>
+                                <span>TypeScript</span>
+                                <span>Frontend</span>
+                                <span>Budgeting</span>
+                            </div>
+
+                            <div class="mt-auto text-center">
+                                <a href="https://github.com/SHREENITHI-TV/Angular-Project-Expense-Tracker"
+                                    class="btn btn-secondary project-btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card practice-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="case-label">Java Desktop Apps</p>
+
+                            <h4 class="card-title">Java GUI Mini Suite</h4>
+
+                            <p class="card-text">
+                                Collection of Java Swing mini desktop apps including calculators and Tic-Tac-Toe, built with Apache NetBeans.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>Swing</span>
+                                <span>NetBeans</span>
+                                <span>JAR Files</span>
+                            </div>
+
+                            <div class="mt-auto text-center">
+                                <a href="https://github.com/SHREENITHI-TV/Java-GUI-Mini-Suite"
+                                    class="btn btn-secondary project-btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card practice-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="case-label">Browser App</p>
+
+                            <h4 class="card-title">Typing Speed Test Game</h4>
+
+                            <p class="card-text">
+                                JavaScript browser project for timer logic, DOM updates, result calculation, and user feedback.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>DOM</span>
+                            </div>
+
+                            <div class="mt-auto text-center">
+                                <a href="https://shreenithi-tv.github.io/TypingSpeedTest/"
+                                    class="btn btn-secondary project-btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card practice-card h-100 github-more-card">
+                        <div class="card-body d-flex flex-column">
+                            <p class="case-label">More Work</p>
+
+                            <h4 class="card-title">More Projects on GitHub</h4>
+
+                            <p class="card-text">
+                                View the full set of repositories, including software engineering, ML, NLP, Java, web, and testing-related projects.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>GitHub</span>
+                                <span>Repos</span>
+                                <span>Code</span>
+                                <span>Documentation</span>
+                            </div>
+
+                            <div class="mt-auto text-center">
+                                <a href="https://github.com/SHREENITHI-TV"
+                                    class="btn btn-secondary project-btn" target="_blank">View GitHub</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="col-lg-4">
-            <div class="card practice-card h-100">
-                <div class="card-body d-flex flex-column">
-                    <p class="case-label">Angular Frontend</p>
-
-                    <h4 class="card-title">Angular Expense Tracker</h4>
-
-                    <p class="card-text">
-                        Angular and TypeScript household expense tracking app focused on frontend structure and budgeting workflow design.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>Angular</span>
-                        <span>TypeScript</span>
-                        <span>Frontend</span>
-                        <span>Budgeting</span>
-                    </div>
-
-                    <div class="mt-auto text-center">
-                        <a href="https://github.com/SHREENITHI-TV/Angular-Project-Expense-Tracker"
-                            class="btn btn-secondary project-btn" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="card practice-card h-100">
-                <div class="card-body d-flex flex-column">
-                    <p class="case-label">Browser App</p>
-
-                    <h4 class="card-title">Typing Speed Test Game</h4>
-
-                    <p class="card-text">
-                        JavaScript browser project for timer logic, DOM updates, result calculation, and user feedback.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>JavaScript</span>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>DOM</span>
-                    </div>
-
-                    <div class="mt-auto text-center">
-                        <a href="https://shreenithi-tv.github.io/TypingSpeedTest/"
-                            class="btn btn-secondary project-btn" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="text-center mt-4">
-        <a href="https://github.com/SHREENITHI-TV" class="btn btn-outline-dark" target="_blank">
-            View More Projects on GitHub
-        </a>
-    </div>
-</div>
 
     </section>
 
@@ -655,6 +848,11 @@
         </div>
     </section>
 
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- Footer -->
     <footer class="container-fluid footer" id="footer">
         <span>&copy; Shreenithi T V - Portfolio Website</span>
@@ -663,8 +861,8 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Custom JS -->
-    <script src="script/script.js"></script>
+    <!-- Custom JS - direct file in same folder -->
+    <script src="script.js"></script>
 </body>
 
 </html>
